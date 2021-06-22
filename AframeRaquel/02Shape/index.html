@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a-scene background="color: #333333">
+	
+    <a-box id="myBox"
+        width="1"
+        height="1"
+        depth="1"
+        color="#A75B4A"
+		position="-1 2 2"
+		rotation="-30, 40, 25"
+		scale="0.75"
+        shadow>
+    </a-box>
+	  
+	<a-plane id="myBox"
+        width="1"
+        height="1"
+        depth="5"
+        color="#BBD65D"
+		position="-1 3 1"
+		rotation="-20, 30, 60"
+		scale="1"
+        shadow>
+	</a-ring>
+	
+	<a-sphere id="myBox"
+        width="1"
+        height="1"
+        depth="4"
+        color="#4572C2"
+		position="3 2 2"
+		rotation="-30, 20, 40"
+		scale="1"
+        shadow>
+	</a-cone>
+	  
+    </a-scene>
+  </body>
+</html>
